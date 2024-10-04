@@ -1,0 +1,25 @@
+.background{
+    height: 100vh;
+}
+
+.calculator{
+    display:grid;
+    background-color:darkgrey;
+    width:450px;
+    height: 500px;
+    grid-template-columns: 112.5px 112.5px 112.5px 112.5px;
+    grid-template-rows:100px 100px 100px 100px 100px;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.display1{
+    grid-column: 1/5;
+}
+
+.display2{
+    grid:2;
+}
