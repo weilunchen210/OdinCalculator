@@ -4,64 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src ="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="background">
         <div class ="calculator">
             <div class="display1">
-                <input type="text">
+                <input type="text" class="display">
             </div>
-            <div class="one">
-                <input type="button" value="1">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="1">
             </div>
-            <div class="two">
-                <input type="button" value="2">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="2">
             </div>
-            <div class="three">
-                <input type="button" value="3">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="3">
             </div>
-            <div class="four">
-                <input type="button" value="4">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="4">
             </div>
-            <div class="five">
-                <input type="button" value="5">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="5">
             </div>
-            <div class="six">
-                <input type="button" value="6">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="6">
             </div>
-            <div class="seven">
-                <input type="button" value="7">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="7">
             </div>
-            <div class="eight">
-                <input type="button" value="8">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="8">
             </div>
-            <div class="nine">
-                <input type="button" value="9">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="9">
             </div>
-            <div class="zero">
-                <input type="button" value="0">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value="0">
             </div>
-            <div class="multiply">
-                <input type="button" value="*">
+            <div>
+                <input type="button" onclick="display(this)" class="numberButton" value=".">
             </div>
-            <div class="divide">
-                <input type="button" value="/">
+            <div>
+                <input type="button" onclick="multiply()" id="multiply "value="*">
             </div>
-            <div class="plus">
-                <input type="button" value="+">
+            <div>
+                <input type="button" onclick="divide()" id="divide" value="/">
             </div>
-            <div class="minus">
-                <input type="button" value="-">
+            <div>
+                <input type="button" onclick="add()" id="add" value="+">
             </div>
-            <div class="equal">
-                <input type="button" value="=">
+            <div>
+                <input type="button" onclick="minus()" id="minus" value="-">
             </div>
-            <div class="clear">
-                <input type="button" value="CE">
+            <div>
+                <input type="button" onclick="calculate()" id="equal" value="=">
+            </div>
+            <div>
+                <input type="button" onclick="clearDisplay()" id="clear" value="CE">
             </div>
         </div>
     </div>
+    <script type="text/javascript" src ="index.js"></script>
 </body>
 </html>
