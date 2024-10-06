@@ -22,6 +22,9 @@
                 <input type="button" onclick="display(this)" class="numberButton" value="3">
             </div>
             <div>
+                <input type="button" onclick="add()" class="operation" id="add" value="+">
+            </div>
+            <div>
                 <input type="button" onclick="display(this)" class="numberButton" value="4">
             </div>
             <div>
@@ -29,6 +32,9 @@
             </div>
             <div>
                 <input type="button" onclick="display(this)" class="numberButton" value="6">
+            </div>
+            <div>
+                <input type="button" onclick="minus()" class="operation" id="minus" value="-">
             </div>
             <div>
                 <input type="button" onclick="display(this)" class="numberButton" value="7">
@@ -40,28 +46,22 @@
                 <input type="button" onclick="display(this)" class="numberButton" value="9">
             </div>
             <div>
+                <input type="button" onclick="multiply()" class="operation" id="multiply "value="*">
+            </div>
+            <div>
                 <input type="button" onclick="display(this)" class="numberButton" value="0">
             </div>
             <div>
                 <input type="button" onclick="display(this)" class="numberButton" value=".">
             </div>
             <div>
-                <input type="button" onclick="multiply()" id="multiply "value="*">
-            </div>
-            <div>
-                <input type="button" onclick="divide()" id="divide" value="/">
-            </div>
-            <div>
-                <input type="button" onclick="add()" id="add" value="+">
-            </div>
-            <div>
-                <input type="button" onclick="minus()" id="minus" value="-">
-            </div>
-            <div>
-                <input type="button" onclick="calculate()" id="equal" value="=">
-            </div>
-            <div>
                 <input type="button" onclick="clearDisplay()" id="clear" value="CE">
+            </div>
+            <div>
+                <input type="button" onclick="divide()" class="operation" id="divide" value="/">
+            </div>
+            <div id="calculate">
+                <input type="button" onclick="calculate()" id="equal" value="=">
             </div>
         </div>
     </div>
