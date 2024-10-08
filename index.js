@@ -20,7 +20,7 @@ function subtract(number1,number2){
 
 function multiply(number1,number2){
     firstNum = displayScreen.value;
-    operation = "+";
+    operation = "*";
     displayScreen.value = "";
 }
 
