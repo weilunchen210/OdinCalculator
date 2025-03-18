@@ -35,8 +35,19 @@ body{
     height:60%;
     border-radius:50%;
     border:none;
+    background-color:#829ab1;
+    color:white;
 }
 
+.calculator #clear{
+    background-color:red;
+    color:white;
+}
+
+.calculator #clear:hover{
+    background-color:white;
+    color:black;
+}
 
 .calculator #calculate{
     grid-column:4/4;
@@ -52,9 +63,15 @@ body{
 }
 
 
+
 .calculator div{
     display: flex;
    text-align:center;
    justify-content: center;
    align-items: center;
+}
+
+.calculator input[type='button']:hover{
+    background-color:grey;
+    cursor: pointer;
 }
