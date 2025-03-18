@@ -9,8 +9,8 @@
 .calculator{
     display:grid;
     background-color:#1e2a3a;
-    width:30vw;
-    height: 600px;
+    width:25vw;
+    height: 68vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows:16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
     border-radius: 20px;
